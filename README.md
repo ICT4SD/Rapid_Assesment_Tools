@@ -1,5 +1,26 @@
 # Rapid Assessment Tools
-Rapid Integrated Assessment (RIA) of national planning documents using machine-based text analysis.
+Rapid Integrated Assessment (RIA) of national planning documents using machine-based text analysis. This project aims to match paragraphs or sentences from national planing documents with the SDG targets.
+
+
+Sustainable Development Goals Indicators and Targets
+----------------------------------------------------
+
+You can find an excel version of the SDG goals, targets, and indicators on this website: https://unstats.un.org/sdgs/indicators/indicators-list/
+
+The targets are listed on column B of the excel spreadsheet. For example for SDG 1:
+
+Goal 1. End poverty in all its forms everywhere 
+
+Targets: 
+
+1.1 By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day 
+
+1.2 By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions  according to national definitions 
+
+1.3 Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable 
+
+... etc.
+
 
 Examples
 --------
