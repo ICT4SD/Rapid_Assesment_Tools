@@ -9,4 +9,3 @@ df = pd.DataFrame([context.strip().split(' ', 1) for context in text.split(sep='
 
 df.to_csv('bhutan_input.csv')
 
-
