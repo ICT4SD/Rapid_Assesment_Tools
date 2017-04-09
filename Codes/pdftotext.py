@@ -16,7 +16,7 @@ class pdf_to_text():
 
         self.root_path = root_path
         self.style = style
-        self.files = []
+        self.filePath = []
 
     def find_all(self):
 
@@ -24,13 +24,13 @@ class pdf_to_text():
 
         for root, dirs, files in dir_list:
             for file in files:
-                self.files.append(os.path.join(root, file))
+                self.filePath.append(os.path.join(root, file))
 
     def convert(self):
 
         self.find_all()
 
-        for file in self.files:
+        for file in self.filePath:
 
             output = tempfile.NamedTemporaryFile()
             output_file = file.replace('.pdf', '.txt')
